@@ -4,10 +4,10 @@ cask "gitabo" do
 
   url "https://github.com/erichall/homebrew-tap/releases/download/gitabo-v#{version}/Gitabo-#{version}.zip"
   name "Gitabo"
-  desc "Native macOS viewer for git worktrees, stacks, and diffs"
+  desc "Git worktree, stack, and diff viewer"
   homepage "https://github.com/erichall/gitabo"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Gitabo.app"
 
@@ -23,6 +23,6 @@ cask "gitabo" do
     "~/Library/Application Support/com.erichall.gitabo",
     "~/Library/Caches/com.erichall.gitabo",
     "~/Library/Preferences/com.erichall.gitabo.plist",
-    "~/Library/Saved Application State/com.erichall.gitabo.savedState"
+    "~/Library/Saved Application State/com.erichall.gitabo.savedState",
   ]
 end
