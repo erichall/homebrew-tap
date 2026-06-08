@@ -1,6 +1,6 @@
 cask "gitabo" do
-  version "0.1.1"
-  sha256 "a30390b6af3659fcb521eb4a3d0f9385d9b7cbb630c69c5fbe46b4826f319bd7"
+  version "0.1.2"
+  sha256 "6fd4924a8ff196e58905cc91e49a41bc59eccd31d42d0d3261b71827ec2540dc"
 
   url "https://github.com/erichall/homebrew-tap/releases/download/gitabo-v#{version}/Gitabo-#{version}.zip"
   name "Gitabo"
